@@ -44,7 +44,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  border: 5px solid white;
+  border: 5px solid #000080;
   border-radius: 10px;
 }
 
@@ -70,7 +70,7 @@ header h1 {
 }
 body{
 	background-color: #ff8c00;
-	color: blue;
+	color: white;
 }
 header {
 	background-color: blue;
