@@ -18,7 +18,7 @@ HEADING
 header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0px;
-  border-bottom: 15px solid #ff8c00;
+  border-bottom: 15px solid #000080;
   width: 100%;
 }
 
@@ -61,23 +61,22 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc;
 }
 /*******************************************
 COLORS
 ********************************************/
 header h1 {
-	color: yellow;
+	color: #ff8c00;
 }
 body{
-	background-color: yellow;
-	color: yellow;
-}
-#wrapper {
-	background-color: white;
+	background-color: #ff8c00;
+	color: blue;
 }
 header {
-	background-color: #dc143c;
+	background-color: blue;
+}
+footer {
+	color: #000080;
 }
 /* nav link */
 nav a, nav a:visited {
