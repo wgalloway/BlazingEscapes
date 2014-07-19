@@ -2,9 +2,9 @@
 GENERAL
 ********************************************/
 #wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
 }
 
 a {
@@ -12,73 +12,90 @@ a {
 	text-decoration: none;
 	
 }
+
 /*******************************************
 HEADING
 ********************************************/
 header {
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0px;
-  border-bottom: 15px solid #000080;
-  width: 100%;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0px;
+	border-bottom: 15px solid #e56c1c;
+	width: 100%;
 }
 
 header h1 {
-	margin-left: 15px;
-	font-size: 45px;
+	display: inline-block;
+	margin-bottom: -40px;
+	margin-top: -60px;
+	margin-left: -6px;
+	font-family: 'Lemon', cursive;
+	font-size: 75px;
+}
+
+#logo {
+	display: inline-block;
+	margin-top: -5px;
 }
 
 /*******************************************
 NAVAGATION
 ********************************************/
 nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+	display: inline-block;
+	float: right;
+	text-align: right;
+	padding: 10px 0;
+	font-size: 20px;
 }
 
 nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
 }
 
 nav li {
-  display: inline-block;
-  border: 5px solid #000080;
-  border-radius: 10px;
+	display: inline-block;
+	border-top: 5px solid #e56c1c;
+	border-radius: 10px;
+	font-family: 'Changa One', cursive;
 }
 
 nav a {
-  font-weight: 800;
-  padding: 15px 10px;
+	font-weight: 800;
+	padding: 15px 10px;
 }
 /*******************************************
 FOOTER
 ********************************************/
 
 footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
+	font-size: 0.75em;
+	text-align: center;
+	clear: right;
+	padding-top: 50px;
 }
 /*******************************************
 COLORS
 ********************************************/
-header h1 {
-	color: #ff8c00;
-}
-body{
+header {
 	background-color: #ff8c00;
+}
+header h1 {
 	color: white;
 }
-header {
-	background-color: blue;
+body{
+	background-color: white;
+	color: #ff8c00;
 }
 footer {
-	color: #000080;
+	color: #dddd;
 }
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+	color: #fff;
+}
+/* Current tab*/
+#Tab {
+	color: #e56c1c;
 }
