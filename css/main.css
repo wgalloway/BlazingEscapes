@@ -95,6 +95,9 @@ footer {
 nav a, nav a:visited {
 	color: #fff;
 }
+nav a:hover {
+	color: #e56c1c;
+}
 /* Current tab*/
 #Tab {
 	color: #e56c1c;

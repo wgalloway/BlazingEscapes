@@ -59,7 +59,7 @@
 	
 	function updateAnimation() {
 		//Set a timer to call updateAnimation every 250 miliseconds
-		setTimeout(updateAnimation, 500);
+		setTimeout(updateAnimation, 400);
 		
 		// Update the monster's animation frames
 		monster.updateAnimation();
