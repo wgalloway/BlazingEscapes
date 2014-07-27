@@ -13,6 +13,22 @@ a {
 	
 }
 
+section h2, section ul{
+	margin-left: 20%;
+}
+
+section ul {
+	font-size: 25px;
+	list-style-type: none;
+	text-decoration: none;
+	color: grey;
+}
+
+.unicode {
+	font-size: 30px;
+	color: #ff8c00;
+}
+
 /*******************************************
 HEADING
 ********************************************/
@@ -30,12 +46,15 @@ header h1 {
 	margin-left: -6px;
 	font-family: 'Lemon', cursive;
 	font-size: 75px;
+	z-index: 100;
 }
 
 #logo {
 	display: inline-block;
 	margin-top: -5px;
 }
+
+
 
 /*******************************************
 NAVAGATION
