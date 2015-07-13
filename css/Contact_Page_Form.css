@@ -4,7 +4,7 @@ Contact Page - Form
 
 form {
   max-width: 300px;
-  margin: 10px auto;
+  margin-left: 40px;
 }
 
 input[type="text"],
