@@ -16,7 +16,7 @@
 			<nav>
 				<ul>
 					<li><a <?php if ($page == 'home') echo ' id="Tab" ' ?> href="index.php">Home</a></li>
-					<li><a href="#">Tours</a></li>
+					<li><a <?php if ($page == 'tours') echo ' id="Tab" ' ?> href="tours.php">Tours</a></li>
 					<li><a <?php if ($page == 'about') echo ' id="Tab" ' ?> href="about.php">About</a></li>
 					<li><a <?php if ($page == 'gallery') echo ' id="Tab" ' ?> href="gallery.php">Gallery</a></li>
 					<li><a <?php if ($page == 'contact') echo ' id="Tab" ' ?> href="contact.php">Contact Us</a></li>
